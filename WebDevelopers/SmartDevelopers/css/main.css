@@ -1,0 +1,111 @@
+body {
+    padding: 0 10%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.5rem;
+}
+body h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn, .spiker{
+    background-color: #ff621f;
+    color: #FFFFFF;
+}
+li {text-align: left;
+    margin: .4rem 0;}
+
+.present{                                     /*1-st block*/
+    border-top: 2px solid #000000;
+    text-transform: uppercase;
+}
+.present h1 {
+    color: #ff621f;
+    font-size: 2rem;
+}
+
+.info {
+    background-color: #eaeaea;
+    margin: 1rem 0 0;
+}
+.info h1 {
+    font-weight: bold;
+}
+
+.info li {
+    list-style-image: url("../img/lst.png");
+}
+
+.spiker {                                      /*2-ed block*/
+    padding: 1rem 1rem 0 1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.spiker .data {
+    float: left;
+}.march{
+    width: 50%;
+    margin: -1.5rem  0 2rem 1rem;
+    text-transform: uppercase;
+    float: left;
+ }
+.border {
+    border-bottom: 2px dotted white;
+    margin-top: 2.5rem;
+}
+
+.march p {
+    padding-top: 1.5rem;
+}
+header {
+    border-bottom:  2px dashed #5e5e5e;
+}
+
+article p {
+    text-align: justify;
+}
+span {
+    font-weight: bold;
+}
+
+footer {
+    margin: 2rem 0;
+}
+footer li {
+    display: inline-block;
+}
+.btn {
+    margin-bottom: 2rem;
+}
+
+
+#coundown span {
+    display: inline-block;
+    background: #2b2e35;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 1rem;
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 0.3rem;
+    font-size: 3rem;
+}
+
+
+@media screen and (min-width: 994px) {
+    body {
+        padding: 0 15%;
+    }
+    .spiker, .info {
+        margin: 2rem 0 3rem;
+        padding: 2rem 2rem;
+    }
+    .info li{
+        margin: 0.8rem;
+    }
+    #coundown span {
+        margin: .5rem;
+    }
+    .bg1 p {
+        margin: 2rem 0;
+    }
+}
